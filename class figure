@@ -1,0 +1,10 @@
+class figure():
+    scale = None
+    form = None
+    color = None
+    def __init__(self, scale, form, color):#метод
+        self.scale = scale
+        self.color = color
+        self.form = form
+    def get_data(self):
+       print(self.scale, self.form, self.color)
